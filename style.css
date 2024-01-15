@@ -1,0 +1,77 @@
+@font-face {
+    font-family: f1;
+    src: url(font/LTAspirerNeue-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(font/LTAspirerNeue-Regular.otf);
+}
+
+.main_heading h1 {
+    text-align: center;
+    font-family: f1;
+}
+
+.bg {
+    background-color: rgb(66, 91, 20);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.display{
+    background-color: white;
+    color: red;
+    padding-top: 10px !important;
+    font-family: f2;
+}
+
+.bg>input {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 145px;
+    padding: 5px;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    font-family: f2;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn5 {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    font-family: f2;
+    cursor: pointer;
+}
+
+
+.operator {
+    color: red;
+}
+
+.rw1,
+.rw2,
+.rw3,
+.rw4,
+.rw5 {
+    margin-top: 10px;
+}
+
+.main {
+    text-align: center;
+}
